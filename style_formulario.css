@@ -1,0 +1,32 @@
+form {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    color: blue;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    
+}
+
+input, textarea {
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.campo {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.campo:focus{
+    border-color: rgb(51, 128, 0);
+}
+
+
+NO me sale campo:focus
+Porque el background color toma toda la pantalla y a mi solo el formulario
+Porque aun colocando el text-align: center; a mi se me centra y a la profe no.
+campo telefono es raro...
